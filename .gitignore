@@ -74,11 +74,12 @@ frontend/dist/
 .env.production.local
 
 # Model files (large ML models)
-models/*.pkl
-models/*.joblib
-models/*.h5
-models/*.pt
-models/*.pth
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
 
 # Jupyter Notebook
 .ipynb_checkpoints
