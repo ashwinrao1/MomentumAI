@@ -1,0 +1,48 @@
+{
+  "best_model": "logistic_regression",
+  "model_performance": {
+    "logistic_regression": {
+      "accuracy": 0.5509830056647784,
+      "precision": 0.2650816181689141,
+      "recall": 0.5448577680525164,
+      "f1": 0.35664836476486034,
+      "auc": 0.5672794463342133
+    },
+    "random_forest": {
+      "accuracy": 0.5593135621459514,
+      "precision": 0.23699421965317918,
+      "recall": 0.41867250182348653,
+      "f1": 0.3026627998945426,
+      "auc": 0.5111879618862576
+    },
+    "gradient_boosting": {
+      "accuracy": 0.7714095301566145,
+      "precision": 0.4,
+      "recall": 0.0014587892049598833,
+      "f1": 0.002906976744186046,
+      "auc": 0.5660851040170884
+    }
+  },
+  "baseline_accuracy": 0.771576141286238,
+  "improvement_over_baseline": -0.22059313562145955,
+  "feature_names": [
+    "shot_count",
+    "rebound_count",
+    "turnover_count",
+    "foul_count",
+    "steal_count",
+    "block_count",
+    "assist_count",
+    "other_count",
+    "shot_rate",
+    "turnover_rate",
+    "steal_rate",
+    "block_rate",
+    "momentum_score",
+    "momentum_ratio",
+    "avg_period",
+    "avg_event_value",
+    "total_event_value"
+  ],
+  "training_timestamp": "2025-10-23T17:21:56.099514"
+}

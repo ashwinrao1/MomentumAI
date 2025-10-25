@@ -1,0 +1,37 @@
+2025-10-25 10:04:55,206 - momentum_ml.momentum_engine - INFO - create_momentum_engine:697 - ML predictor loaded successfully
+2025-10-25 10:04:55,206 - momentum_ml.momentum_engine - INFO - create_momentum_engine:697 - ML predictor loaded successfully
+INFO:     Started server process [81230]
+INFO:     Waiting for application startup.
+2025-10-25 10:04:55,237 - momentum_ml - INFO - startup_event:44 - Starting MomentumML API...
+2025-10-25 10:04:55,240 - momentum_ml - INFO - startup_event:48 - Database initialization completed
+2025-10-25 10:04:55,240 - momentum_ml.migration.performance - INFO - run_performance_migration:206 - Starting performance optimization migration...
+2025-10-25 10:04:55,240 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_events_game_timestamp already exists, skipping
+2025-10-25 10:04:55,240 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_events_game_team_timestamp already exists, skipping
+2025-10-25 10:04:55,240 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_events_type_timestamp already exists, skipping
+2025-10-25 10:04:55,240 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_tmi_game_team_calculated already exists, skipping
+2025-10-25 10:04:55,240 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_tmi_calculated_at already exists, skipping
+2025-10-25 10:04:55,240 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_tmi_game_calculated already exists, skipping
+2025-10-25 10:04:55,240 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_games_date_status already exists, skipping
+2025-10-25 10:04:55,240 - momentum_ml.migration.performance - INFO - create_performance_indexes:100 - Performance indexes migration completed
+2025-10-25 10:04:55,241 - momentum_ml.migration.performance - INFO - analyze_table_statistics:120 - Table games: 7 rows, 6 columns
+2025-10-25 10:04:55,242 - momentum_ml.migration.performance - INFO - analyze_table_statistics:120 - Table events: 113 rows, 11 columns
+2025-10-25 10:04:55,242 - momentum_ml.migration.performance - INFO - analyze_table_statistics:134 - Top event types: {'shot': 79, 'rebound': 18, 'foul': 12, 'turnover': 4}
+2025-10-25 10:04:55,242 - momentum_ml.migration.performance - INFO - analyze_table_statistics:144 - Events span 6 unique games
+2025-10-25 10:04:55,243 - momentum_ml.migration.performance - INFO - analyze_table_statistics:120 - Table tmi_calculations: 17 rows, 9 columns
+2025-10-25 10:04:55,243 - momentum_ml.migration.performance - INFO - analyze_table_statistics:157 - Top teams by TMI calculations: {'LAL': 11, 'GSW': 6}
+2025-10-25 10:04:55,244 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA journal_mode=WAL
+2025-10-25 10:04:55,244 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA cache_size=10000
+2025-10-25 10:04:55,244 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA foreign_keys=ON
+2025-10-25 10:04:55,244 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA synchronous=NORMAL
+2025-10-25 10:04:55,244 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA temp_store=MEMORY
+2025-10-25 10:04:55,244 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA page_size=4096
+2025-10-25 10:04:55,244 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA automatic_index=ON
+2025-10-25 10:04:55,244 - momentum_ml.migration.performance - INFO - optimize_database_settings:201 - Database optimization settings applied
+2025-10-25 10:04:55,244 - momentum_ml.migration.performance - INFO - run_performance_migration:218 - Performance optimization migration completed successfully
+2025-10-25 10:04:55,244 - momentum_ml - INFO - startup_event:65 - Performance optimizations applied
+2025-10-25 10:04:55,244 - momentum_ml - INFO - startup_event:71 - Started periodic momentum updates background task
+2025-10-25 10:04:55,244 - momentum_ml - INFO - startup_event:73 - MomentumML API startup completed successfully
+INFO:     Application startup complete.
+ERROR:    [Errno 48] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.

@@ -1,0 +1,568 @@
+{
+  "evaluation_timestamp": "2025-10-25T10:52:13.614982",
+  "model_info": {
+    "model_type": "RandomForestClassifier",
+    "training_accuracy": 95.6,
+    "training_f1": 95.4,
+    "features_count": 29
+  },
+  "historical_evaluation": {
+    "games_evaluated": 7,
+    "momentum_predictions": [
+      {
+        "game_id": "0022500090",
+        "teams": {
+          "HOME": {
+            "tmi_value": -0.032961948951578515,
+            "prediction_probability": 0.9999993843716757,
+            "confidence_score": 0.9999993843716757,
+            "momentum_direction": "negative",
+            "momentum_strength": 0.032961948951578515
+          },
+          "AWAY": {
+            "tmi_value": 0.05100186843409114,
+            "prediction_probability": 0.9999973103984567,
+            "confidence_score": 0.9999973103984567,
+            "momentum_direction": "positive",
+            "momentum_strength": 0.05100186843409114
+          }
+        },
+        "momentum_differential": -0.08396381738566966,
+        "predicted_advantage": "AWAY",
+        "confidence_avg": 0.9999983473850662,
+        "momentum_strength": 0.08396381738566966
+      },
+      {
+        "game_id": "0022500018",
+        "teams": {
+          "HOME": {
+            "tmi_value": 0.19931245303080833,
+            "prediction_probability": 0.878835191283001,
+            "confidence_score": 0.878835191283001,
+            "momentum_direction": "positive",
+            "momentum_strength": 0.19931245303080833
+          },
+          "AWAY": {
+            "tmi_value": -0.019632102799710983,
+            "prediction_probability": 0.9999994747309159,
+            "confidence_score": 0.9999994747309159,
+            "momentum_direction": "negative",
+            "momentum_strength": 0.019632102799710983
+          }
+        },
+        "momentum_differential": 0.2189445558305193,
+        "predicted_advantage": "HOME",
+        "confidence_avg": 0.9394173330069584,
+        "momentum_strength": 0.2189445558305193
+      },
+      {
+        "game_id": "0022500019",
+        "teams": {
+          "AWAY": {
+            "tmi_value": -0.09035116972179148,
+            "prediction_probability": 0.9995172896741338,
+            "confidence_score": 0.9995172896741338,
+            "momentum_direction": "negative",
+            "momentum_strength": 0.09035116972179148
+          },
+          "HOME": {
+            "tmi_value": -0.15493975940183782,
+            "prediction_probability": 1.0,
+            "confidence_score": 1.0,
+            "momentum_direction": "negative",
+            "momentum_strength": 0.15493975940183782
+          }
+        },
+        "momentum_differential": 0.06458858968004634,
+        "predicted_advantage": "AWAY",
+        "confidence_avg": 0.9997586448370669,
+        "momentum_strength": 0.06458858968004634
+      },
+      {
+        "game_id": "0022500093",
+        "teams": {
+          "AWAY": {
+            "tmi_value": -0.035319696069544194,
+            "prediction_probability": 0.9999474998551391,
+            "confidence_score": 0.9999474998551391,
+            "momentum_direction": "negative",
+            "momentum_strength": 0.035319696069544194
+          },
+          "HOME": {
+            "tmi_value": -0.021437487715739157,
+            "prediction_probability": 0.999999997361676,
+            "confidence_score": 0.999999997361676,
+            "momentum_direction": "negative",
+            "momentum_strength": 0.021437487715739157
+          }
+        },
+        "momentum_differential": -0.013882208353805037,
+        "predicted_advantage": "HOME",
+        "confidence_avg": 0.9999737486084075,
+        "momentum_strength": 0.013882208353805037
+      },
+      {
+        "game_id": "concurrent_game_000",
+        "teams": {
+          "LAL": {
+            "tmi_value": -0.06937218462755805,
+            "prediction_probability": 0.9999997435456076,
+            "confidence_score": 0.9999997435456076,
+            "momentum_direction": "negative",
+            "momentum_strength": 0.06937218462755805
+          },
+          "GSW": {
+            "tmi_value": 0.051754916950676584,
+            "prediction_probability": 0.999999915427761,
+            "confidence_score": 0.999999915427761,
+            "momentum_direction": "positive",
+            "momentum_strength": 0.051754916950676584
+          }
+        },
+        "momentum_differential": -0.12112710157823464,
+        "predicted_advantage": "GSW",
+        "confidence_avg": 0.9999998294866843,
+        "momentum_strength": 0.12112710157823464
+      },
+      {
+        "game_id": "concurrent_game_001",
+        "teams": {
+          "LAL": {
+            "tmi_value": -0.06937218462755805,
+            "prediction_probability": 0.9999997435456076,
+            "confidence_score": 0.9999997435456076,
+            "momentum_direction": "negative",
+            "momentum_strength": 0.06937218462755805
+          },
+          "GSW": {
+            "tmi_value": 0.051754916950676584,
+            "prediction_probability": 0.999999915427761,
+            "confidence_score": 0.999999915427761,
+            "momentum_direction": "positive",
+            "momentum_strength": 0.051754916950676584
+          }
+        },
+        "momentum_differential": -0.12112710157823464,
+        "predicted_advantage": "GSW",
+        "confidence_avg": 0.9999998294866843,
+        "momentum_strength": 0.12112710157823464
+      },
+      {
+        "game_id": "concurrent_game_002",
+        "teams": {
+          "LAL": {
+            "tmi_value": -0.06937218462755805,
+            "prediction_probability": 0.9999997435456076,
+            "confidence_score": 0.9999997435456076,
+            "momentum_direction": "negative",
+            "momentum_strength": 0.06937218462755805
+          },
+          "GSW": {
+            "tmi_value": 0.051754916950676584,
+            "prediction_probability": 0.999999915427761,
+            "confidence_score": 0.999999915427761,
+            "momentum_direction": "positive",
+            "momentum_strength": 0.051754916950676584
+          }
+        },
+        "momentum_differential": -0.12112710157823464,
+        "predicted_advantage": "GSW",
+        "confidence_avg": 0.9999998294866843,
+        "momentum_strength": 0.12112710157823464
+      }
+    ],
+    "accuracy_metrics": {
+      "total_games": 7,
+      "average_momentum_strength": 0.10639435371210634,
+      "average_confidence": 0.9913067946139361,
+      "strong_momentum_games": 4,
+      "weak_momentum_games": 3,
+      "momentum_distribution": {
+        "min": 0.013882208353805037,
+        "max": 0.2189445558305193,
+        "std": 0.05871001068319692,
+        "median": 0.12112710157823464
+      },
+      "confidence_distribution": {
+        "min": 0.9394173330069584,
+        "max": 0.9999998294866843,
+        "std": 0.021183941846422666,
+        "median": 0.9999983473850662
+      }
+    },
+    "detailed_results": [
+      {
+        "game_id": "0022500090",
+        "teams": "ATL @ ORL",
+        "analysis": {
+          "game_id": "0022500090",
+          "teams": {
+            "HOME": {
+              "tmi_value": -0.032961948951578515,
+              "prediction_probability": 0.9999993843716757,
+              "confidence_score": 0.9999993843716757,
+              "momentum_direction": "negative",
+              "momentum_strength": 0.032961948951578515
+            },
+            "AWAY": {
+              "tmi_value": 0.05100186843409114,
+              "prediction_probability": 0.9999973103984567,
+              "confidence_score": 0.9999973103984567,
+              "momentum_direction": "positive",
+              "momentum_strength": 0.05100186843409114
+            }
+          },
+          "momentum_differential": -0.08396381738566966,
+          "predicted_advantage": "AWAY",
+          "confidence_avg": 0.9999983473850662,
+          "momentum_strength": 0.08396381738566966
+        }
+      },
+      {
+        "game_id": "0022500018",
+        "teams": "BOS @ NYK",
+        "analysis": {
+          "game_id": "0022500018",
+          "teams": {
+            "HOME": {
+              "tmi_value": 0.19931245303080833,
+              "prediction_probability": 0.878835191283001,
+              "confidence_score": 0.878835191283001,
+              "momentum_direction": "positive",
+              "momentum_strength": 0.19931245303080833
+            },
+            "AWAY": {
+              "tmi_value": -0.019632102799710983,
+              "prediction_probability": 0.9999994747309159,
+              "confidence_score": 0.9999994747309159,
+              "momentum_direction": "negative",
+              "momentum_strength": 0.019632102799710983
+            }
+          },
+          "momentum_differential": 0.2189445558305193,
+          "predicted_advantage": "HOME",
+          "confidence_avg": 0.9394173330069584,
+          "momentum_strength": 0.2189445558305193
+        }
+      },
+      {
+        "game_id": "0022500019",
+        "teams": "MIN @ LAL",
+        "analysis": {
+          "game_id": "0022500019",
+          "teams": {
+            "AWAY": {
+              "tmi_value": -0.09035116972179148,
+              "prediction_probability": 0.9995172896741338,
+              "confidence_score": 0.9995172896741338,
+              "momentum_direction": "negative",
+              "momentum_strength": 0.09035116972179148
+            },
+            "HOME": {
+              "tmi_value": -0.15493975940183782,
+              "prediction_probability": 1.0,
+              "confidence_score": 1.0,
+              "momentum_direction": "negative",
+              "momentum_strength": 0.15493975940183782
+            }
+          },
+          "momentum_differential": 0.06458858968004634,
+          "predicted_advantage": "AWAY",
+          "confidence_avg": 0.9997586448370669,
+          "momentum_strength": 0.06458858968004634
+        }
+      },
+      {
+        "game_id": "0022500093",
+        "teams": "DET @ HOU",
+        "analysis": {
+          "game_id": "0022500093",
+          "teams": {
+            "AWAY": {
+              "tmi_value": -0.035319696069544194,
+              "prediction_probability": 0.9999474998551391,
+              "confidence_score": 0.9999474998551391,
+              "momentum_direction": "negative",
+              "momentum_strength": 0.035319696069544194
+            },
+            "HOME": {
+              "tmi_value": -0.021437487715739157,
+              "prediction_probability": 0.999999997361676,
+              "confidence_score": 0.999999997361676,
+              "momentum_direction": "negative",
+              "momentum_strength": 0.021437487715739157
+            }
+          },
+          "momentum_differential": -0.013882208353805037,
+          "predicted_advantage": "HOME",
+          "confidence_avg": 0.9999737486084075,
+          "momentum_strength": 0.013882208353805037
+        }
+      },
+      {
+        "game_id": "concurrent_game_000",
+        "teams": "GSW @ LAL",
+        "analysis": {
+          "game_id": "concurrent_game_000",
+          "teams": {
+            "LAL": {
+              "tmi_value": -0.06937218462755805,
+              "prediction_probability": 0.9999997435456076,
+              "confidence_score": 0.9999997435456076,
+              "momentum_direction": "negative",
+              "momentum_strength": 0.06937218462755805
+            },
+            "GSW": {
+              "tmi_value": 0.051754916950676584,
+              "prediction_probability": 0.999999915427761,
+              "confidence_score": 0.999999915427761,
+              "momentum_direction": "positive",
+              "momentum_strength": 0.051754916950676584
+            }
+          },
+          "momentum_differential": -0.12112710157823464,
+          "predicted_advantage": "GSW",
+          "confidence_avg": 0.9999998294866843,
+          "momentum_strength": 0.12112710157823464
+        }
+      },
+      {
+        "game_id": "concurrent_game_001",
+        "teams": "GSW @ LAL",
+        "analysis": {
+          "game_id": "concurrent_game_001",
+          "teams": {
+            "LAL": {
+              "tmi_value": -0.06937218462755805,
+              "prediction_probability": 0.9999997435456076,
+              "confidence_score": 0.9999997435456076,
+              "momentum_direction": "negative",
+              "momentum_strength": 0.06937218462755805
+            },
+            "GSW": {
+              "tmi_value": 0.051754916950676584,
+              "prediction_probability": 0.999999915427761,
+              "confidence_score": 0.999999915427761,
+              "momentum_direction": "positive",
+              "momentum_strength": 0.051754916950676584
+            }
+          },
+          "momentum_differential": -0.12112710157823464,
+          "predicted_advantage": "GSW",
+          "confidence_avg": 0.9999998294866843,
+          "momentum_strength": 0.12112710157823464
+        }
+      },
+      {
+        "game_id": "concurrent_game_002",
+        "teams": "GSW @ LAL",
+        "analysis": {
+          "game_id": "concurrent_game_002",
+          "teams": {
+            "LAL": {
+              "tmi_value": -0.06937218462755805,
+              "prediction_probability": 0.9999997435456076,
+              "confidence_score": 0.9999997435456076,
+              "momentum_direction": "negative",
+              "momentum_strength": 0.06937218462755805
+            },
+            "GSW": {
+              "tmi_value": 0.051754916950676584,
+              "prediction_probability": 0.999999915427761,
+              "confidence_score": 0.999999915427761,
+              "momentum_direction": "positive",
+              "momentum_strength": 0.051754916950676584
+            }
+          },
+          "momentum_differential": -0.12112710157823464,
+          "predicted_advantage": "GSW",
+          "confidence_avg": 0.9999998294866843,
+          "momentum_strength": 0.12112710157823464
+        }
+      }
+    ]
+  },
+  "consistency_evaluation": {
+    "consistency_by_range": {
+      "negative": {
+        "count": 8,
+        "tmi_std": 0.028157828598054206,
+        "prob_std": 0.0001595687587840042,
+        "conf_std": 0.0001595687587840042,
+        "avg_tmi": -0.0826905046111222,
+        "avg_prob": 0.9999394688684724,
+        "avg_conf": 0.9999394688684724
+      },
+      "neutral": {
+        "count": 9,
+        "tmi_std": 0.01773368922272472,
+        "prob_std": 0.49523655443405434,
+        "conf_std": 0.0016541813458712245,
+        "avg_tmi": -0.018521601894328152,
+        "avg_prob": 0.44629528900673765,
+        "avg_conf": 0.9981372346197972
+      },
+      "positive": {
+        "count": 8,
+        "tmi_std": 0.04883626833615603,
+        "prob_std": 0.0400713429031037,
+        "conf_std": 0.0400713429031037,
+        "avg_tmi": 0.07010547789611987,
+        "avg_prob": 0.984853999281003,
+        "avg_conf": 0.984853999281003
+      }
+    },
+    "total_predictions": 25,
+    "range_distribution": {
+      "very_negative": 0,
+      "negative": 8,
+      "neutral": 9,
+      "positive": 8,
+      "very_positive": 0
+    }
+  },
+  "feature_stability": {
+    "feature_stability": {
+      "points_scored": {
+        "count": 25,
+        "mean_contribution": 0.0,
+        "std_contribution": 0.0,
+        "stability_score": 1.0,
+        "importance_rank": 0.0
+      },
+      "fg_percentage": {
+        "count": 25,
+        "mean_contribution": -0.0036349800826276056,
+        "std_contribution": 0.06309513891100277,
+        "stability_score": 0.9406495838409766,
+        "importance_rank": 0.0036349800826276056
+      },
+      "rebounds": {
+        "count": 25,
+        "mean_contribution": -0.004039102267237896,
+        "std_contribution": 0.02012154109050921,
+        "stability_score": 0.9802753492794601,
+        "importance_rank": 0.004039102267237896
+      },
+      "turnovers": {
+        "count": 25,
+        "mean_contribution": -0.0046696975321503294,
+        "std_contribution": 0.021029025155346673,
+        "stability_score": 0.979404086820992,
+        "importance_rank": 0.0046696975321503294
+      },
+      "fouls": {
+        "count": 25,
+        "mean_contribution": 0.001648794651256948,
+        "std_contribution": 0.007340317093256168,
+        "stability_score": 0.992713170545544,
+        "importance_rank": 0.001648794651256948
+      }
+    },
+    "top_important_features": [
+      [
+        "turnovers",
+        {
+          "count": 25,
+          "mean_contribution": -0.0046696975321503294,
+          "std_contribution": 0.021029025155346673,
+          "stability_score": 0.979404086820992,
+          "importance_rank": 0.0046696975321503294
+        }
+      ],
+      [
+        "rebounds",
+        {
+          "count": 25,
+          "mean_contribution": -0.004039102267237896,
+          "std_contribution": 0.02012154109050921,
+          "stability_score": 0.9802753492794601,
+          "importance_rank": 0.004039102267237896
+        }
+      ],
+      [
+        "fg_percentage",
+        {
+          "count": 25,
+          "mean_contribution": -0.0036349800826276056,
+          "std_contribution": 0.06309513891100277,
+          "stability_score": 0.9406495838409766,
+          "importance_rank": 0.0036349800826276056
+        }
+      ],
+      [
+        "fouls",
+        {
+          "count": 25,
+          "mean_contribution": 0.001648794651256948,
+          "std_contribution": 0.007340317093256168,
+          "stability_score": 0.992713170545544,
+          "importance_rank": 0.001648794651256948
+        }
+      ],
+      [
+        "points_scored",
+        {
+          "count": 25,
+          "mean_contribution": 0.0,
+          "std_contribution": 0.0,
+          "stability_score": 1.0,
+          "importance_rank": 0.0
+        }
+      ]
+    ],
+    "most_stable_features": [
+      [
+        "points_scored",
+        {
+          "count": 25,
+          "mean_contribution": 0.0,
+          "std_contribution": 0.0,
+          "stability_score": 1.0,
+          "importance_rank": 0.0
+        }
+      ],
+      [
+        "fouls",
+        {
+          "count": 25,
+          "mean_contribution": 0.001648794651256948,
+          "std_contribution": 0.007340317093256168,
+          "stability_score": 0.992713170545544,
+          "importance_rank": 0.001648794651256948
+        }
+      ],
+      [
+        "rebounds",
+        {
+          "count": 25,
+          "mean_contribution": -0.004039102267237896,
+          "std_contribution": 0.02012154109050921,
+          "stability_score": 0.9802753492794601,
+          "importance_rank": 0.004039102267237896
+        }
+      ],
+      [
+        "turnovers",
+        {
+          "count": 25,
+          "mean_contribution": -0.0046696975321503294,
+          "std_contribution": 0.021029025155346673,
+          "stability_score": 0.979404086820992,
+          "importance_rank": 0.0046696975321503294
+        }
+      ],
+      [
+        "fg_percentage",
+        {
+          "count": 25,
+          "mean_contribution": -0.0036349800826276056,
+          "std_contribution": 0.06309513891100277,
+          "stability_score": 0.9406495838409766,
+          "importance_rank": 0.0036349800826276056
+        }
+      ]
+    ],
+    "total_features_analyzed": 5
+  }
+}
