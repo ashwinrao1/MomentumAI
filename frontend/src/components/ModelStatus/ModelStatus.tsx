@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { getApiUrl, API_CONFIG } from '../../config/api';
 
 interface ModelInfo {
   status: string;
@@ -20,7 +21,7 @@ const ModelStatus: React.FC<ModelStatusProps> = ({ className = '' }) => {
     const fetchModelStatus = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch('http://localhost:8003/api/momentum/status');
+        const response = await fetch(getApiUrl(API_CONFIG.ENDPOINTS.STATUS));
         
         if (!response.ok) {
           throw new Error(`HTTP ${response.status}: ${response.statusText}`);

@@ -20,6 +20,7 @@ import {
   useErrorState,
   logError
 } from '../../utils/errorHandling';
+import { getApiUrl, getWebSocketUrl, API_CONFIG } from '../../config/api';
 
 interface DashboardProps {}
 
@@ -47,7 +48,7 @@ const Dashboard: React.FC<DashboardProps> = () => {
   // WebSocket connection with enhanced error handling and optimized message processing
   // Only use WebSocket for live games
   const websocketUrl = selectedGame?.status === 'Live' || selectedGame?.status === 'In Progress' 
-    ? 'ws://localhost:8003/live/stream' 
+    ? getWebSocketUrl(API_CONFIG.WEBSOCKET.LIVE_STREAM) 
     : '';
 
   const {
@@ -161,7 +162,7 @@ const Dashboard: React.FC<DashboardProps> = () => {
     
     try {
       const response = await fetchWithErrorHandling(
-        'http://localhost:8003/api/momentum/games',
+        getApiUrl(API_CONFIG.ENDPOINTS.GAMES),
         {},
         { maxRetries: 2, baseDelay: 1000 }
       );
@@ -207,7 +208,7 @@ const Dashboard: React.FC<DashboardProps> = () => {
       setIsLoading(true);
       
       const response = await fetchWithErrorHandling(
-        `http://localhost:8003/api/momentum/current?game_id=${gameId}`,
+        `${getApiUrl(API_CONFIG.ENDPOINTS.CURRENT_MOMENTUM)}?game_id=${gameId}`,
         {},
         { maxRetries: 2, baseDelay: 1000 }
       );

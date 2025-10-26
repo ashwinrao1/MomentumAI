@@ -200,3 +200,59 @@
 2025-10-25 14:48:01,183 - momentum_ml - INFO - startup_event:65 - Performance optimizations applied
 2025-10-25 14:48:01,183 - momentum_ml - INFO - startup_event:71 - Started periodic momentum updates background task
 2025-10-25 14:48:01,183 - momentum_ml - INFO - startup_event:73 - MomentumML API startup completed successfully
+2025-10-25 22:21:55,272 - momentum_ml - INFO - startup_event:44 - Starting MomentumML API...
+2025-10-25 22:21:55,274 - momentum_ml - INFO - startup_event:48 - Database initialization completed
+2025-10-25 22:21:55,274 - momentum_ml.migration.performance - INFO - run_performance_migration:206 - Starting performance optimization migration...
+2025-10-25 22:21:55,275 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_events_game_timestamp already exists, skipping
+2025-10-25 22:21:55,275 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_events_game_team_timestamp already exists, skipping
+2025-10-25 22:21:55,275 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_events_type_timestamp already exists, skipping
+2025-10-25 22:21:55,275 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_tmi_game_team_calculated already exists, skipping
+2025-10-25 22:21:55,275 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_tmi_calculated_at already exists, skipping
+2025-10-25 22:21:55,275 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_tmi_game_calculated already exists, skipping
+2025-10-25 22:21:55,275 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_games_date_status already exists, skipping
+2025-10-25 22:21:55,275 - momentum_ml.migration.performance - INFO - create_performance_indexes:100 - Performance indexes migration completed
+2025-10-25 22:21:55,275 - momentum_ml.migration.performance - INFO - analyze_table_statistics:120 - Table games: 7 rows, 6 columns
+2025-10-25 22:21:55,276 - momentum_ml.migration.performance - INFO - analyze_table_statistics:120 - Table events: 113 rows, 11 columns
+2025-10-25 22:21:55,276 - momentum_ml.migration.performance - INFO - analyze_table_statistics:134 - Top event types: {'shot': 79, 'rebound': 18, 'foul': 12, 'turnover': 4}
+2025-10-25 22:21:55,276 - momentum_ml.migration.performance - INFO - analyze_table_statistics:144 - Events span 6 unique games
+2025-10-25 22:21:55,276 - momentum_ml.migration.performance - INFO - analyze_table_statistics:120 - Table tmi_calculations: 0 rows, 9 columns
+2025-10-25 22:21:55,276 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA journal_mode=WAL
+2025-10-25 22:21:55,276 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA cache_size=10000
+2025-10-25 22:21:55,277 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA foreign_keys=ON
+2025-10-25 22:21:55,277 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA synchronous=NORMAL
+2025-10-25 22:21:55,277 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA temp_store=MEMORY
+2025-10-25 22:21:55,277 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA page_size=4096
+2025-10-25 22:21:55,277 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA automatic_index=ON
+2025-10-25 22:21:55,277 - momentum_ml.migration.performance - INFO - optimize_database_settings:201 - Database optimization settings applied
+2025-10-25 22:21:55,277 - momentum_ml.migration.performance - INFO - run_performance_migration:218 - Performance optimization migration completed successfully
+2025-10-25 22:21:55,278 - momentum_ml - INFO - startup_event:65 - Performance optimizations applied
+2025-10-25 22:21:55,278 - momentum_ml - INFO - startup_event:71 - Started periodic momentum updates background task
+2025-10-25 22:21:55,278 - momentum_ml - INFO - startup_event:73 - MomentumML API startup completed successfully
+2025-10-25 22:22:22,646 - momentum_ml - INFO - startup_event:44 - Starting MomentumML API...
+2025-10-25 22:22:22,647 - momentum_ml - INFO - startup_event:48 - Database initialization completed
+2025-10-25 22:22:22,647 - momentum_ml.migration.performance - INFO - run_performance_migration:206 - Starting performance optimization migration...
+2025-10-25 22:22:22,648 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_events_game_timestamp already exists, skipping
+2025-10-25 22:22:22,648 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_events_game_team_timestamp already exists, skipping
+2025-10-25 22:22:22,648 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_events_type_timestamp already exists, skipping
+2025-10-25 22:22:22,648 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_tmi_game_team_calculated already exists, skipping
+2025-10-25 22:22:22,648 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_tmi_calculated_at already exists, skipping
+2025-10-25 22:22:22,648 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_tmi_game_calculated already exists, skipping
+2025-10-25 22:22:22,648 - momentum_ml.migration.performance - INFO - create_performance_indexes:80 - Index idx_games_date_status already exists, skipping
+2025-10-25 22:22:22,648 - momentum_ml.migration.performance - INFO - create_performance_indexes:100 - Performance indexes migration completed
+2025-10-25 22:22:22,648 - momentum_ml.migration.performance - INFO - analyze_table_statistics:120 - Table games: 7 rows, 6 columns
+2025-10-25 22:22:22,649 - momentum_ml.migration.performance - INFO - analyze_table_statistics:120 - Table events: 113 rows, 11 columns
+2025-10-25 22:22:22,649 - momentum_ml.migration.performance - INFO - analyze_table_statistics:134 - Top event types: {'shot': 79, 'rebound': 18, 'foul': 12, 'turnover': 4}
+2025-10-25 22:22:22,649 - momentum_ml.migration.performance - INFO - analyze_table_statistics:144 - Events span 6 unique games
+2025-10-25 22:22:22,649 - momentum_ml.migration.performance - INFO - analyze_table_statistics:120 - Table tmi_calculations: 0 rows, 9 columns
+2025-10-25 22:22:22,649 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA journal_mode=WAL
+2025-10-25 22:22:22,649 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA cache_size=10000
+2025-10-25 22:22:22,649 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA foreign_keys=ON
+2025-10-25 22:22:22,649 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA synchronous=NORMAL
+2025-10-25 22:22:22,649 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA temp_store=MEMORY
+2025-10-25 22:22:22,649 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA page_size=4096
+2025-10-25 22:22:22,649 - momentum_ml.migration.performance - INFO - optimize_database_settings:194 - Applied optimization: PRAGMA automatic_index=ON
+2025-10-25 22:22:22,650 - momentum_ml.migration.performance - INFO - optimize_database_settings:201 - Database optimization settings applied
+2025-10-25 22:22:22,650 - momentum_ml.migration.performance - INFO - run_performance_migration:218 - Performance optimization migration completed successfully
+2025-10-25 22:22:22,650 - momentum_ml - INFO - startup_event:65 - Performance optimizations applied
+2025-10-25 22:22:22,650 - momentum_ml - INFO - startup_event:71 - Started periodic momentum updates background task
+2025-10-25 22:22:22,650 - momentum_ml - INFO - startup_event:73 - MomentumML API startup completed successfully

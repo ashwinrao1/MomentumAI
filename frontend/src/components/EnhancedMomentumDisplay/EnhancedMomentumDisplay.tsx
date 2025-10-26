@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '../ui/card';
 import { MomentumData } from '../../types/index';
+import { getVisualizationUrl } from '../../config/api';
 
 interface VisualizationMomentumData {
   game_id: string;
@@ -129,9 +130,7 @@ const EnhancedMomentumDisplay: React.FC<EnhancedMomentumDisplayProps> = ({
     const fetchMomentumData = async () => {
       try {
         // Use demo endpoint for demo game, otherwise use regular endpoint
-        const endpoint = gameId === 'demo_game_001' 
-          ? 'http://localhost:8003/api/games/demo/momentum/visualization'
-          : `/api/games/${gameId}/momentum/visualization`;
+        const endpoint = getVisualizationUrl(gameId);
           
         const response = await fetch(endpoint);
         if (!response.ok) {
